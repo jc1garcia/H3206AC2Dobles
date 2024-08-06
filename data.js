@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-206-bao",
-      "name": "206 Baño",
+      "id": "0-h3-206-",
+      "name": "H3 206 ",
       "levels": [
         {
           "tileSize": 256,
@@ -24,15 +24,15 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.11707868349910555,
+        "pitch": -0.16803397911285778,
+        "fov": 1.2861062247484547
       },
       "linkHotspots": [
         {
-          "yaw": -3.069488926236229,
-          "pitch": 1.1214047429048453,
-          "rotation": 4.71238898038469,
+          "yaw": -0.05900567952235036,
+          "pitch": 0.36437960332775177,
+          "rotation": 0,
           "target": "1-206-ac-dos-dobles"
         }
       ],
@@ -71,20 +71,20 @@ var APP_DATA = {
           "yaw": -1.6910846541968922,
           "pitch": 0.5443025745460837,
           "rotation": 0.7853981633974483,
-          "target": "0-206-bao"
+          "target": "2-206-bao"
         },
         {
           "yaw": -2.267060092040955,
           "pitch": 0.6428071852150303,
           "rotation": 4.71238898038469,
-          "target": "2-h3-206-"
+          "target": "0-h3-206-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-h3-206-",
-      "name": "H3 206 ",
+      "id": "2-206-bao",
+      "name": "206 Baño",
       "levels": [
         {
           "tileSize": 256,
@@ -106,15 +106,15 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 0.004232481621839312,
-        "pitch": -0.08501725783063208,
-        "fov": 1.2861062247484547
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.05900567952235036,
-          "pitch": 0.36437960332775177,
-          "rotation": 0,
+          "yaw": -3.069488926236229,
+          "pitch": 1.1214047429048453,
+          "rotation": 4.71238898038469,
           "target": "1-206-ac-dos-dobles"
         }
       ],
