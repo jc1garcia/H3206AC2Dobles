@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-h3-206-",
-      "name": "H3 206 ",
+      "id": "0-h3206door",
+      "name": "H3206Door",
       "levels": [
         {
           "tileSize": 256,
@@ -24,67 +24,30 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 0.11707868349910555,
-        "pitch": -0.16803397911285778,
-        "fov": 1.2861062247484547
+        "yaw": -0.09515657366079111,
+        "pitch": -0.2747434347351998,
+        "fov": 1.1964365482158075
       },
       "linkHotspots": [
         {
-          "yaw": -0.05900567952235036,
-          "pitch": 0.36437960332775177,
+          "yaw": -0.18244941620498878,
+          "pitch": 0.11794064735022225,
           "rotation": 0,
-          "target": "1-206-ac-dos-dobles"
+          "target": "1-h3-206-ac-dos-dobles"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -0.09537890856079301,
+          "pitch": -0.2749657696351999,
+          "title": "Dalce click a la Flecha&nbsp;",
+          "text": "Dale Click a la Flecha&nbsp;"
+        }
+      ]
     },
     {
-      "id": "1-206-ac-dos-dobles",
-      "name": "206 AC Dos Dobles",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "yaw": 0.1775682804202745,
-        "pitch": 0.213273896566335,
-        "fov": 1.2861062247484547
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6910846541968922,
-          "pitch": 0.5443025745460837,
-          "rotation": 0.7853981633974483,
-          "target": "2-206-bao"
-        },
-        {
-          "yaw": -2.267060092040955,
-          "pitch": 0.6428071852150303,
-          "rotation": 4.71238898038469,
-          "target": "0-h3-206-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-206-bao",
-      "name": "206 Baño",
+      "id": "1-h3-206-ac-dos-dobles",
+      "name": "H3 206 AC Dos Dobles",
       "levels": [
         {
           "tileSize": 256,
@@ -112,16 +75,60 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.069488926236229,
-          "pitch": 1.1214047429048453,
-          "rotation": 4.71238898038469,
-          "target": "1-206-ac-dos-dobles"
+          "yaw": -1.7282421672883608,
+          "pitch": 0.43340383375799973,
+          "rotation": 0.7853981633974483,
+          "target": "2-h3-206-bao"
+        },
+        {
+          "yaw": -2.3008230858302685,
+          "pitch": 0.6123652755084414,
+          "rotation": 5.497787143782138,
+          "target": "0-h3206door"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-h3-206-bao",
+      "name": "H3 206 Baño",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.8944678449978642,
+          "pitch": 0.5776298886394571,
+          "rotation": 5.497787143782138,
+          "target": "1-h3-206-ac-dos-dobles"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "H3 AC Dos Camas Dobles 206",
+  "name": "Hotel Via Principal AC Dos Dobles 206",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
